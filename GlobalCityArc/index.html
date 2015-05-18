@@ -26,10 +26,12 @@
 	<script src="demos/modules/globe/helpers.js"></script>
 	
 	<script src="js/drawCityArcs.js"></script>
-    <script> 	  
-	  drawCityArcs();
+	<script src="js/data.js"></script>
+    <script> 
+		
+	  //drawCityArcs(data);
 	  function draw(data){
-		drawCityArcs();
+		drawCityArcs(data);
 	  }
 	  
 	  $(window).on('message', listenForStartEvent);
