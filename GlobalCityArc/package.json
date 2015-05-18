@@ -1,0 +1,26 @@
+{
+  "name": "subunit",
+  "version": "v0.2.4",
+  "description": "D3 Selections in THREE.js, D3 Syntax in WebGL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sghall/subunit.git"
+  },
+  "author": "Steve Hall <shall@delimited.io> (http://delimited.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sghall/subunit/issues"
+  },
+  "homepage": "https://github.com/sghall/subunit",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "gulp": "^3.8.10",
+    "gulp-jshint": "^1.9.0",
+    "gulp-shell": "^0.2.11",
+    "mocha": "^2.1.0"
+  }
+}
