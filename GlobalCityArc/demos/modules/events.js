@@ -1,6 +1,6 @@
 var raycaster = new THREE.Raycaster();
 
-export function raycast(camera, items, type) {
+function raycast(camera, items, type) {
 
   var listener = function(event) {
     var vector = new THREE.Vector3();

@@ -1,4 +1,4 @@
-export function getCoords(lat, lng, flag) {
+function getCoords(lat, lng, flag) {
   var gamma = (90  - lat) * Math.PI / 180;
   var theta = (180 - lng) * Math.PI / 180;
 
@@ -13,7 +13,7 @@ export function getCoords(lat, lng, flag) {
   return {x: x, y: y, z: z};
 }
 
-export function materialsCache(colorScale, func) {
+function materialsCache(colorScale, func) {
   var cache = {};
 
   return function (value) {
@@ -27,7 +27,7 @@ export function materialsCache(colorScale, func) {
 }
 
 
-export function lineCache(colorScale, func) {
+function lineCache(colorScale, func) {
   var cache = {};
 
   return function (value, size) {
@@ -46,7 +46,7 @@ export function lineCache(colorScale, func) {
 
 var origin = new THREE.Vector3(0,0,0);
 
-export function arc(beg, end, detail){
+function arc(beg, end, detail){
 
   var distance = beg.distanceTo(end);
   
